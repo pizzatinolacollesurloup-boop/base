@@ -59,4 +59,12 @@ Constats de cette nouvelle recherche et tentative :
 
 Ces constats portent sur les chemins effectivement essayés ici. Ils n'établissent ni une déconnexion du compte Drive, ni une panne générale de Work. Aucun message n'a été envoyé à Work et aucune lecture Drive directe n'a réussi lors de cette tentative. Le résultat antérieur rapporté depuis Work reste acquis.
 
-Pour un nouvel essai utile, obtenir un changement concret : outil Work/Drive fourni à cette session, ou mécanisme pris en charge et documenté avec une destination accessible. Vérifier ensuite une seule opération autorisée et son retour. Ne pas lancer une nouvelle boucle de copie ou tester des identifiants, cookies et points d'accès supposés. Aucun accès automatique n'est déclaré établi.
+Une recherche complémentaire a identifié le [plugin Google Drive officiel](https://github.com/openai/plugins/blob/main/plugins/google-drive/.codex-plugin/plugin.json), son [connecteur hébergé](https://github.com/openai/plugins/blob/main/plugins/google-drive/.app.json) et son entrée dans le [catalogue OpenAI](https://github.com/openai/plugins/blob/main/.agents/plugins/marketplace.json). Ces manifestes décrivent une intégration ; ils ne prouvent pas son activation dans cette conversation.
+
+La commande native `codex plugin add google-drive@openai-curated-remote --json` a été essayée. Elle échoue lors de l'accès au catalogue distant sur `chatgpt.com`, avec une erreur de tunnel. Aucune installation réussie ni authentification Google n'est établie.
+
+Un brouillon de configuration a été enregistré puis relu : ajout de `chatgpt.com`, `developers.openai.com`, `help.openai.com` et `learn.chatgpt.com` aux destinations personnalisées, en conservant le mode restreint et les accès existants du préréglage. Aucun secret ni script n'a été ajouté. Le résultat de sauvegarde indique `requires_publish: true` ; il ne démontre pas l'application au réseau de la machine actuelle.
+
+Prochaine action : examiner et enregistrer le changement dans les paramètres de l'environnement, puis publier l'environnement. Après application, vérifier l'accès au catalogue officiel et la disponibilité du connecteur dans la session. La levée du blocage réseau n'établit pas à elle seule l'installation ou l'exposition des outils ; le test doit aller jusqu'à une lecture autorisée et à son résultat réel. Les contraintes en lecture seule de la CLI restent un blocage distinct pour les chemins nécessitant une écriture locale.
+
+L'accès direct à Drive devient la piste documentée à vérifier en priorité ; aucune interface de communication Work n'est identifiée à ce stade. Ne pas lancer une nouvelle boucle de copie ou tester des identifiants, cookies et points d'accès supposés. Aucun accès automatique n'est déclaré établi.
