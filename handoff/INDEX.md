@@ -18,6 +18,7 @@ Le titulaire autorise l'usage de GitHub pour les instructions durables et les de
 - Un prétest de lecture a été rapporté par le titulaire depuis Work ; le passage reçu concorde avec la copie locale. Les références et le contenu détaillé restent privés.
 - Ce résultat n'établit ni accès direct à Drive depuis Codex, ni droit d'écriture, ni conservation du lot complet, ni récupération complète de l'historique.
 - Un bandeau d'indisponibilité temporaire d'outils dans Work a ensuite été signalé ; les outils concernés et leur état actuel ne sont pas identifiés. Conserver le résultat acquis et reprendre au dernier point contrôlé quand les capacités nécessaires sont disponibles.
+- Une recherche officielle et une nouvelle tentative native ont été effectuées : Codex prend en charge des connecteurs, mais aucun accès Work ou Drive n'a été établi ici. L'essai natif a échoué avant l'ouverture du catalogue ; les sites d'aide sont refusés par le proxy. Voir le [diagnostic et ses limites](../docs/RELAIS_WORK_DRIVE.md#diagnostic-de-connexion-du-20-octobre-2026). Ne pas confondre ces limites locales avec une déconnexion du compte dans Work.
 
 Le statut de publication Git est communiqué après vérification du distant ; ce fichier décrit l'état de la demande, pas une preuve auto-déclarée de publication. Les éléments privés nécessaires à sa réalisation sont remis dans la conversation du titulaire.
 

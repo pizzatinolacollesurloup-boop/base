@@ -45,3 +45,18 @@ Le contenu détaillé des preuves reste dans l'espace privé faisant autorité. 
 ## Automatisation future
 
 Un déclencheur GitHub, une tâche Work, un accès Drive et une reprise Codex sont quatre capacités distinctes. Leur existence et leur chaîne complète doivent être vérifiées avant une automatisation. Ne pas activer de nouveau service, accès ou coût par la seule lecture de ce protocole. Le premier objectif est un relais manuel réussi de bout en bout.
+
+## Diagnostic de connexion du 20 octobre 2026
+
+La documentation officielle du [serveur d'application Codex](https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md#hosted-codex-apps-mcp-protocol) décrit des connecteurs hébergés et des réglages par session. Codex peut donc prendre en charge des apps ; l'absence d'un outil dans cette session ne démontre pas une impossibilité générale du produit.
+
+Constats de cette nouvelle recherche et tentative :
+
+- Aucun outil d'accès Drive ou d'envoi vers Work n'est exposé dans cette conversation. Les commandes natives d'échange entre sessions Codex ne prouvent pas un accès aux conversations Work.
+- La CLI reconnaît une authentification ChatGPT. Son inventaire local ne contient aucun serveur MCP configuré ni plugin installé ; cet inventaire ne représente pas les connexions du compte dans Work.
+- Le contrôle du serveur natif ne trouve pas de socket local. Une tentative distincte d'initialisation par le protocole natif échoue sur un emplacement en lecture seule, y compris après déplacement des seuls journaux et de la base d'état temporaires. Le catalogue distant d'apps n'a donc pas été interrogé : ne pas le déclarer vide.
+- Le proxy refuse les sites d'aide et de documentation OpenAI avec `Tunnel connection failed: 403 Forbidden`. Le dépôt officiel OpenAI sur GitHub est accessible et a été consulté. Les fonctionnalités spécifiques de Work n'ont pas pu être vérifiées dans sa documentation ; leur absence n'est pas établie.
+
+Ces constats portent sur les chemins effectivement essayés ici. Ils n'établissent ni une déconnexion du compte Drive, ni une panne générale de Work. Aucun message n'a été envoyé à Work et aucune lecture Drive directe n'a réussi lors de cette tentative. Le résultat antérieur rapporté depuis Work reste acquis.
+
+Pour un nouvel essai utile, obtenir un changement concret : outil Work/Drive fourni à cette session, ou mécanisme pris en charge et documenté avec une destination accessible. Vérifier ensuite une seule opération autorisée et son retour. Ne pas lancer une nouvelle boucle de copie ou tester des identifiants, cookies et points d'accès supposés. Aucun accès automatique n'est déclaré établi.
