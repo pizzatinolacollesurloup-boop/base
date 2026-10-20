@@ -32,6 +32,8 @@ Une préparation de fichier n'est pas un envoi. Une réponse partielle ne clôt 
 
 Pour la sauvegarde d'un lot privé : vérifier la bonne destination autorisée, les fichiers existants, l'absence de doublons/écrasement, le format d'origine et la relecture. Comparer taille et empreinte lorsque les outils l'autorisent. Un contrôle impossible est déclaré non effectué. Une archive simplement déposée n'est pas équivalente à la conservation individuelle demandée de ses pièces.
 
+Si le titulaire transmet seulement un brief, commencer par rechercher les sources déjà présentes dans le Drive autorisé à partir des références privées qu'il fournit. Demander uniquement les pièces encore manquantes. Un inventaire, un brief PDF ou une extraction textuelle ne constitue pas la copie binaire d'un original absent.
+
 Pour récupérer un historique : rendre le texte primaire effectivement retrouvé et sa provenance dans le canal privé ; séparer utilisateur et assistant, formulations originales et synthèses, séquence certaine et lacunes. Ne pas compléter les messages manquants par supposition.
 
 ## Relance et conflits

@@ -16,6 +16,8 @@ La visibilité publique du dépôt a été vérifiée le 20 octobre 2026. Aucun 
 
 Le titulaire transmet la demande à une session Work disposant réellement de Drive, accompagnée du paquet privé. Il rapporte le résultat privé dans la conversation Codex. Codex contrôle les éléments reçus et inscrit ici uniquement un compte rendu non sensible. La présence de ces fichiers ne prouve aucun accès à Drive, envoi à Work ou transfert réussi.
 
+Un brief privé lisible directement peut suffire pour commencer : Work recherche d'abord les originaux déjà présents dans Drive. Le titulaire ne doit joindre de nouveau que les pièces réellement manquantes. Aucun aperçu ZIP n'est requis pour cette première recherche, et le brief ne remplace pas les originaux.
+
 ## Répartition des emplacements
 
 | Emplacement | Contenu |
