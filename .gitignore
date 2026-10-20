@@ -1,0 +1,33 @@
+# Dépôt documentaire public : seuls les chemins Markdown ci-dessous sont admis.
+*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/docs/
+!/docs/*.md
+!/handoff/
+!/handoff/INDEX.md
+!/handoff/requests/
+!/handoff/requests/*.md
+!/handoff/responses/
+!/handoff/responses/*.md
+!/handoff/templates/
+!/handoff/templates/*.md
+
+# Ces exclusions restent applicables dans les chemins admis.
+**/.env*
+**/*secret*
+**/*credential*
+**/confidentiel/**
+**/confidential/**
+**/private/**
+**/originaux/**
+**/attachments/**
+**/*.pdf
+**/*.zip
+**/*.csv
+**/*.xlsx
+**/*.docx
+**/*.key
+**/*.pem
+**/*.p12
